@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praktikum 3 - CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    div.container {
+        border: 5px solid ;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    p.one {
+        margin-left: inherit;
+        margin-right: inherit;
+    }
+
+    body {
+        background-color: lightblue;
+    }
+</style>
 </head>
+
 <body>
-    
+    <h2>Use of the inherit value</h2>
+    <p>Let the left margin be inherited from the parent element:</p>
+    <div class="container">
+        <p class="one">This is a paragraph with an inherited left margin </p>
+    </div>
 </body>
 </html>
